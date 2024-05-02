@@ -1,0 +1,51 @@
+// src/pages/mylist/mylist.scss
+
+.my-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .widget {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+      h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 16px;
+      }
+    }
+  
+    .my-datatable {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+  
+      th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+      }
+  
+      td {
+        text-align: center;
+      }
+    }
+  }
+  
